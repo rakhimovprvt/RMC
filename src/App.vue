@@ -224,10 +224,29 @@
         />
         <div class="shrink-0">
           <h2
-            class="font-normal text-[60px] leading-[70px] text-white max-w-[670px] w-full"
+            class="font-normal text-[60px] leading-[70px] text-white max-w-[670px] w-full mt-[18px]"
           >
             We Create Digital Experience
           </h2>
+          <div class="flex gap-[30px] mt-[35px]">
+            <div>
+              <span class="text-5xl font-normal text-[#FFAF76]">75%</span>
+              <p class="text-[18px] text-[#ABAEB7]">Architecture</p>
+            </div>
+            <div>
+              <span class="text-5xl font-normal text-[#FFAF76]">85%</span>
+              <p class="text-[18px] text-[#ABAEB7]">Construction</p>
+            </div>
+            <div>
+              <span class="text-5xl font-normal text-[#FFAF76]">65%</span>
+              <p class="text-[18px] text-[#ABAEB7]">Interior Design</p>
+            </div>
+          </div>
+          <button
+            class="py-[10px] px-[20px] border 1px solid border-white text-white mt-[30px]"
+          >
+            Let's Work Together
+          </button>
         </div>
       </div>
     </section>
@@ -285,4 +304,44 @@
       </div>
     </section>
   </main>
+  <footer class="mt-[140px]">
+    <div class="container">
+      <div class="flex">
+        <img class="h-[250px]" src="/images/Rectangle 758.png" alt="" />
+        <img class="h-[250px]" src="/images/Rectangle 747.png" alt="" />
+        <img class="h-[250px]" src="/images/Rectangle 745.png" alt="" />
+        <img class="h-[250px]" src="/images/Rectangle 746.png" alt="" />
+        <img class="h-[250px]" src="/images/Rectangle 744.png" alt="" />
+        <img class="h-[250px]" src="/images/Rectangle 748.png" alt="" />
+        <img class="h-[250px]" src="/images/Rectangle 759.png" alt="" />
+      </div>
+      <div class="flex mt-[70px]">
+        <div class="px-[80px]">
+          <img src="/images/logo (1).png" alt="" />
+          <p class="max-w-[350px] w-full text-[16px] text-[#D7E0E1] mt-[60px]">
+            Take a look at how we designed this housesimply random text. It has
+            roots in a piece of classical Latin literature from 45 BC, making it
+            over 2000 years old.
+          </p>
+        </div>
+        <img src="/images/Rectangle 732.png" alt="" />
+        <div class="px-[80px]">
+          <p class="text-[16px] text-[#FFB077]">THE STUDIO</p>
+          <p class="text-[16px] text-white">PROJECTS</p>
+          <p class="text-[16px] text-[#FFB077]">Architecture</p>
+          <p class="text-[16px] text-[#FFB077]">Blog</p>
+          <p class="text-[16px] text-[#FFB077]">Contact</p>
+        </div>
+        <img src="/images/Rectangle 732.png" alt="" />
+        <div class="px-[80px]">
+          <h2 class="font-normal text-[48px] text-white">Visit</h2>
+          <p class="text-[18px] text-[#ABAEB7] max-w-[281px] w-full">
+            Logan Barker, 865 Oak Boulevard, Elk Grove, Vermont 95184
+          </p>
+          <h2 class="font-normal text-[48px] text-white">Call</h2>
+          <span class="text-[18px] text-[#ABAEB7]">017-6153-1774</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
