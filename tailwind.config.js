@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [],
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
       container: {
@@ -14,9 +14,9 @@ export default {
       },
       backgroundImage: {
         body: "url('/images/background.png')",
+        backgroundR: "url('/images/bg-image.jpg')",
       },
     },
   },
   plugins: [],
-}
-
+};
